@@ -1,16 +1,16 @@
 /*
 Color Palette:
 background color: #1C6758
-font color: #D6CDA4        
-secondary color: #f25d5d   
-tertiary color: #EEF2E6    
-*/
+font color: #EEF2E6        
+secondary color: #2b2b2b   
+tertiary color: #D6CDA4    
+*/ 
 
 /* CSS Syntax notes:
     Selector {property:value;}
     */
     
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
  
  html{
      font-size:62.5%;    /*Default font size is 16px - 62.5% of 16 is 10px
@@ -19,21 +19,21 @@ tertiary color: #EEF2E6
  
  header {
     margin:0 4rem; 
-    letter-spacing:0.8rem;
+    letter-spacing:0.3rem;
     text-align:center;
-    border-bottom:6px solid #D6CDA4;
-    border-right:6px solid #D6CDA4;
-    border-left:6px solid #D6CDA4;
+    border-bottom:8px solid #B73E3E;
+    border-right:8px solid #B73E3E;
+    border-left:8px solid #B73E3E;
     padding: 0.5rem;
     box-shadow: 6px 6px 7px rgba(0, 0, 0, 0.4);
     text-transform: uppercase;
-    font-size: 1.1rem;
+    font-size: 2.1rem;
  }
  
     body {
         background-color: #1C6758;
         color: #EEF2E6;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Poppins', sans-serif;
         margin:0;
     }
     
@@ -51,12 +51,13 @@ tertiary color: #EEF2E6
         justify-content: center;
         align-items: center;
         margin: 7rem 4rem;
+    
     }
     
     .imageCard img {
         width: 100%;
         height: auto;
-        border-radius: 30px;
+        border-radius: 300px;
         box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     
@@ -66,12 +67,15 @@ tertiary color: #EEF2E6
     }
     
     .cardText {
-        color: #D6CDA4;
+        color: #EEF2E6;
         text-align: center;
         padding: 2rem;
         border-radius: 30px;
         margin-top: 2rem;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-bottom:8px solid #B73E3E;
+        border-right:8px solid #B73E3E;
+        border-left:8px solid #B73E3E;
     }
     
     @media (min-width: 768px) {
@@ -90,3 +94,6 @@ tertiary color: #EEF2E6
             max-width: 28%;
         }
     }
+        h1:hover {
+            background-color: yellow;
+        }
