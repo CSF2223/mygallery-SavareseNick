@@ -94,6 +94,13 @@ tertiary color: #D6CDA4
             max-width: 28%;
         }
     }
-        h1:hover {
-            background-color: yellow;
+    
+    img:hover {
+        transform: scale(1.1);
         }
+    header:hover {
+        transform: scale(1.06);
+        }
+    .cardText:hover {
+        transform: scale(1.1);
+    }
