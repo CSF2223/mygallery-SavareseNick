@@ -97,10 +97,11 @@ tertiary color: #D6CDA4
     
     img:hover {
         transform: scale(1.1);
+        /*filter: contrast(5560%);*/
         }
     header:hover {
         transform: scale(1.06);
         }
     .cardText:hover {
         transform: scale(1.1);
-    }
+        }
